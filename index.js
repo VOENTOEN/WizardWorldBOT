@@ -47,7 +47,7 @@ client.on("gui", member =>{
 
 });
 
-client.login(botConfig.token);
+client.login(process.env.token);
  
 client.on("ready", async () => {
  
