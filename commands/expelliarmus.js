@@ -2,7 +2,7 @@ const discord = require("discord.js");
 
 module.exports.run = async(client, message, args) =>{
 
-    message.channel.send("**Expelliarmus!** https://gfycat.com/ethicalcomplexjunebug");
+    message.channel.send("**Expelliarmus!** https://gfycat.com/commonfreearrowana");
 
     }
 
