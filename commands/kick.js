@@ -2,7 +2,7 @@ const discord = require("discord.js");
 
 module.exports.run = async(client, message, args) =>{
 
-    if(!message.member.roles.cache.some(r => r.name === "🏰 | Admin"))
+    if(!message.member.roles.cache.some(r => r.name === "Admin"))
     return;
 // Easy way to get member object though mentions.
 var member = message.mentions.members.first();
