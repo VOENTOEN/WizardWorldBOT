@@ -53,7 +53,7 @@ client.on("ready", async () => {
  
     console.log(`${client.user.username} is online.`);
  
-    client.user.setActivity("play.WizardWorld.nl", { type: "PLAYING" });
+    client.user.setActivity("play.NordMT.nl", { type: "PLAYING" });
  
 });
 
